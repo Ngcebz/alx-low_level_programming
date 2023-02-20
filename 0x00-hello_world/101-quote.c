@@ -1,6 +1,8 @@
 #include <unistd.h>
 /**
- * main - prints "and that piece of art is useful" - Dora
+ * main - main function
+ * Description: Write a C program that prints
+ *"and that piece of art is useful" - Dora
  * Korpar, 2015-10-19",
  * followed by a newline, to standard error
  * Return: Always 1
