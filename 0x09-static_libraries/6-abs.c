@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+int _abs(int n)
 {
-	return puts(s);
+	return abs(n);
 }

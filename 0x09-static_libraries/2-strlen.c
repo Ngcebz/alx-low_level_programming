@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+int _strlen(char *s)
 {
-	return puts(s);
+	return strlen(s);
 }

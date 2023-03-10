@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+int _isupper(int c)
 {
-	return puts(s);
+	return isupper(c);
 }

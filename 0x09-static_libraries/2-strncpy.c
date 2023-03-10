@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-void _puts(char *s)
+char *_strncpy(char *dest, char *src, int n)
 {
-	return puts(s);
+	return strncpy(dest, src, n);
 }
